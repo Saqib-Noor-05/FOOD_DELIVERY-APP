@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Card } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
 
 function Cards({ id, image, rating, title, paragraph, price, renderRatingIcons }) {
