@@ -9,26 +9,8 @@ import Image7 from "../../assets/menu/burger-17.jpg";
 import Image8 from "../../assets/menu/burger-18.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import Cards from "../../components/Layouts/Cards";
-import { Link } from "react-router-dom";
 
-const PlaceholderImage = ({ title }) => (
-  <div
-    style={{
-      width: "100%",
-      height: "250px",
-      backgroundColor: "#fde4e4",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      borderRadius: "8px",
-      fontSize: "14px",
-      color: "#666",
-      fontWeight: "600",
-    }}
-  >
-    {title}
-  </div>
-);
+
 
 const mockData = [
   {
