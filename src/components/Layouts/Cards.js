@@ -5,7 +5,7 @@ import { useCart } from "../../context/CartContext";
 
 function Cards({ id, image, rating, title, paragraph, price, renderRatingIcons }) {
   const { addToCart } = useCart();
-  const navigate = useNavigate();
+
 
   const handleAddToCart = () => {
     addToCart({ id, title, price, image });
